@@ -1,0 +1,11 @@
+ int role=8;
+void setup() {
+ pinMode(role,OUTPUT);
+}
+
+void loop() {
+ delay(3000);
+ digitalWrite(role,HIGH);
+ delay(3000);
+ digitalWrite(role,LOW);
+}
